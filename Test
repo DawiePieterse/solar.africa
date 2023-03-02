@@ -1,0 +1,118 @@
+echo "# solar.africa" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DawiePieterse/solar.africa.git
+git push -u origin main
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Solar.Africa - Specialists in Solar PV Designs and Installations</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+			font-size: 32px;
+		}
+		nav {
+			background-color: #f2f2f2;
+			border-bottom: 1px solid #ccc;
+			padding: 10px;
+			text-align: center;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav ul li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+		nav ul li a {
+			color: #333;
+			text-decoration: none;
+		}
+		nav ul li a:hover {
+			color: #666;
+		}
+		main {
+			margin: 20px;
+			padding: 10px;
+			text-align: justify;
+		}
+			main h2 {
+				font-size: 24px;
+				margin-top: 0;
+			}
+			main p {
+				font-size: 16px;
+				line-height: 1.5;
+			}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Solar.Africa</h1>
+		<p>Specialists in Solar PV Designs and Installations</p>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>About Us</h2>
+		<p>Solar.Africa is a company dedicated to providing sustainable energy solutions for homes, businesses, and communities in Africa. We specialize in the design and installation of solar PV systems, and our goal is to help our clients reduce their energy costs while minimizing their environmental impact.</p>
+		<h2>Services</h2>
+		<p>Our services include:</p>
+		<ul>
+			<li>Solar PV system design and installation</li>
+			<li>Solar water heating system design and installation</li>
+			<li>Energy audits and efficiency consulting</li>
+			<li>Maintenance and repair services</li>
+			<li>Financing and leasing options</li>
+		</ul>
+		<h2>Projects</h2>
+		<p>Take a look at some of our recent projects:</p>
+		<div>
+			<img src="solar-project-1.jpg" alt="Solar Project 1" width="300" height="200">
+			<img src="solar-project-2.jpg" alt="Solar Project 2" width="300" height="200">
+			<img src="solar-project-3.jpg" alt="Solar Project 3" width="300" height="200">
+		</div>
+		<h2>Contact Us</h2>
+		<p>Want to learn more about our services or schedule a consultation? Contact us today:</p>
+		<ul>
+			<li>Phone: 555-555-5555</li>
+			<li>Email: info@solar.africa</li>
+			<li>Address: 123 Main Street, Nairobi, Kenya</li>
+		</ul>
+	</main>
+	<footer>
+		<p>&copy; 2023 Solar.Africa. All rights reserved.</p>
+	</footer>
+</body>
+</html>
